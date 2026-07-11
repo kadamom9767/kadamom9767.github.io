@@ -64,3 +64,17 @@ section h2{
   color:#0b3d91;
   margin-bottom:20px;
 }
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #0b3d91;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #072d6d;
+}

@@ -1,4 +1,17 @@
-*{
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #0b57d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #084298;
+}*{
   margin:0;
   padding:0;
   box-sizing:border-box;

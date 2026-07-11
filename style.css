@@ -85,3 +85,32 @@ footer{
     padding:20px;
     margin-top:50px;
 }
+#skills ul{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:15px;
+    list-style:none;
+    padding:0;
+}
+
+#skills li{
+    background:#ffffff;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    font-weight:600;
+}
+#projects ul,
+#certifications ul{
+    list-style:none;
+    padding:0;
+}
+
+#projects li,
+#certifications li{
+    background:#ffffff;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
